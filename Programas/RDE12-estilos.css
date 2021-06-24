@@ -1,0 +1,127 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 60px;
+    margin-right: 20px;
+    margin-bottom: 70px;
+    margin-left: 70px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: gray;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+h1{
+    background-color: hotpink;
+    width: 200px;
+    height: 50px;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom:30px;
+    margin-left: 30px;
+    border: 2px solid rgb(196, 74, 179);
+    padding :10px 10px 10px 10px ;
+}
+p{
+    background-color: rgb(226, 235, 243);
+    
+}
+span{
+    display:block;
+    background-color:rgb(23, 212, 149);
+}
+.box1{
+    position: static;
+    background-color: chartreuse;
+    width: 400px;
+    height: 50px;
+    top: 0px;
+    left: 0px;
+}
+.box2{
+    position: relative;
+    background-color: rgb(0, 247, 255);
+    width: 400px;
+    height: 50px;
+    bottom: 50px;
+    left: 450px;
+}
+.box3{
+    position: absolute;
+    background-color:rgb(45, 45, 211);
+    width: 400px;
+    height: 50px;
+    top: 500px;
+    left: 500px;
+}
+.box4{
+    position:fixed;
+    background-color: rgb(255, 145, 0);
+    width: 400px;
+    height: 50px;
+    top: 0px;
+    right: 0px;
+}
+.box5{
+    position: static;
+    background-color: rgb(129, 71, 44);
+    width: 400px;
+    height: 50px;
+    bottom:500px;
+    left:150px;
+
+}
+.layer1{
+    position: relative;
+    background-color:darkturquoise;
+    width: 70px;
+    height: 70px;
+    bottom: 0px;
+    left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+
+}
+.layer2{
+    position: relative;
+    background-color:cadetblue;
+    width: 70px;
+    height: 70px;
+    bottom: 20px;
+    left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+
+}
+.boxa{
+    position: static;
+    background-color: rgb(255, 94, 0);
+    width: 50px;
+    border: 2px solid rgb(74, 157, 196);
+    height: 50px;
+    top: 0px;
+    float:right;
+}
+.boxB{
+    position: static;
+    background-color: rgb(40, 212, 255);
+    width: 50px;
+    height: 50px;
+    top: 0px;
+    border: 2px solid rgb(204, 70, 186);
+    
+}
+.boxC{
+    position: relative;
+    background-color: rgb(255, 0, 221);
+    width: 50px;
+    height: 50px;
+    top: 0px;
+    border: 2px solid rgb(10, 10, 10);
+    float:right;
+}
